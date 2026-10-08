@@ -1,0 +1,7 @@
+id = "black-ocean"
+name = "Black Ocean"
+version = "0.1.0"
+schema_version = 1
+authors = ["mustzev <col.de.staz@gmail.com>"]
+description = "A dark theme with blues and greens, ported from the Black Ocean VS Code theme. Includes a Neon variant."
+repository = "https://github.com/mustzev/black-ocean-theme-for-zed"
