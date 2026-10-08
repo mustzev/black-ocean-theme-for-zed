@@ -46,6 +46,14 @@ cargo run --manifest-path generator/Cargo.toml
 
 Reload the dev extension in Zed to see the change.
 
+## Releasing an update
+
+1. Bump `version` in `extension.toml` and push.
+2. In the [zed-extensions](https://github.com/mustzev/zed-extensions) fork, run
+   `git submodule update --remote extensions/black-ocean`.
+3. Set the same version in that repo's `extensions.toml`.
+4. Open another PR to `zed-industries/extensions`.
+
 ## License
 
 MIT. See [LICENSE](LICENSE). The original colors are © 2018 Alex Oxthorn.
